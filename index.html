@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<title></title>
+</head>
+<body>
+	<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+    <section id="welcome-section">
+      <div class="bgimg">
+        <h1 style="color:white;">@iliasdennis Programmer Portfolio</h1>
+      </div>
+    </section>
+  </nav>
+
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+    <nav id="navbar">
+      <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+        <i class="fa fa-remove"></i>
+      </a>
+      <div class="w3-bar-block w3-center">
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+        <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+      </div>
+    </nav>
+  </nav>
+
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+      <h1 class="w3-jumbo"><b>@iliasdennis Programmer</b></h1>
+      <p>A software developer with a passion for learning and creating.</p>
+    </header>
+
+    <div class="w3-padding-32 w3-content" id="portfolio">
+      <h2 class="w3-text-grey">My Portfolio</h2>
+      <hr class="w3-opacity">
+
+      <section id="projects">
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half">
+          	<p>Tribute Page Project</p>
+            <a href="https://iliasdennis.github.io/001-Build_a_tribute_page">
+              <img src="https://shots.codepen.io/username/pen/yOJJxd-800.jpg?version=1674667401" class="project-tile" style="width:100%">
+            </a>
+            <p>Survey Form Project</p>
+            <a href="https://iliasdennis.github.io/002-Build_a_survey_form">
+              <img src="https://shots.codepen.io/username/pen/LYNRrpa-800.jpg?version=1597937745" class="project-tile" style="width:100%">
+            </a>
+            <p>Technical Documentation Project</p>
+            <a href="https://iliasdennis.github.io/004-Build_a_technical_documentation_page">
+              <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lBzMLBKJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://i.imgur.com/BL85jL8.png" class="project-tile" style="width:100%">
+            </a>
+            <p>Product Landing Page Project</p>
+            <a href="https://iliasdennis.github.io/003-Build_a_product_landing_page">
+              <img src="https://global.discourse-cdn.com/freecodecamp/original/3X/b/1/b16cafa873e1fd62a31908d6719aa538601af9a6.png" class="project-tile" style="width:100%">
+            </a>
+          </div>
+      </section>
+    </div>
+
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+      <h2>About</h2>
+      <hr class="w3-opacity">
+      <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+      <h2>Contact Me</h2>
+      <hr class="w3-opacity">
+
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> iliasdennis</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: my@mail.org</p>
+      </div>
+    </div>
+
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+      <a href="https://www.freecodecamp.org/iliasdennis" target="_blank" id="profile-link">
+        <i class="fa fa-free-code-camp w3-hover-opacity"></i>
+      </a>
+      <a href="https://github.com/iliasdennis" target="_blank" id="profile-link">
+        <i class="fa fa-github w3-hover-opacity"></i>
+      </a>
+      <p class="w3-medium">
+        Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+  // Open and close sidebar
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+</body>
+</html>
